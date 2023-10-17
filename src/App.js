@@ -92,7 +92,7 @@ const App = () => {
       <h1>예산 계산기</h1>
       <div style = {{width:'100%',backgroundColor:'white',padding:'1rem'}}>
         <ExpenseForm 
-            handleChange={handleCharge}
+            handleCharge={handleCharge}
             charge={charge}
             handleAmount={handleAmount}
             amount={amount}
