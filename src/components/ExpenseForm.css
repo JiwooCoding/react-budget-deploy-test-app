@@ -1,0 +1,28 @@
+.form-center{
+    display: flex;
+}
+
+.form-group{
+    padding: 1rem 0.75rem;
+    flex: 1; /*flex 빈 공간 없애주기*/
+}
+
+label{
+    display: block;
+    color: var(--seconedColor);
+    font-size: 1rem;
+    text-transform: capitalize; /*영어 대문자*/
+
+}
+
+.form-control{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--seconedColor);
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+}
